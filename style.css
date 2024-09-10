@@ -1,0 +1,219 @@
+body {
+	margin: 0 0;
+	background-color: green;
+	font-family: Calibri;
+}
+
+#wrap {
+	width: 500px;
+	margin:100px auto 0;
+}
+
+.room { 
+	margin: 2px 2px; 
+	display: inline-block; 
+	width: 50px; height: 50px; 
+	text-align: center; 
+	background-color: lightgreen;
+	border-radius: 10px;
+}
+
+#gameboard {
+	background-color: yellow	;
+	border-radius: 10px;
+	padding: 5px;
+	color: black;
+}
+
+#gameboard h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+}
+
+#gameboard p {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 0.7em;
+}
+
+#feedback {
+	background-color: lightgreen;
+	border-radius: 10px;
+	float: right;
+	height: 220px;	
+	margin-top: -238px;
+	padding: 5px;
+	margin-right: 2px;
+	width: 190px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 0.9em;
+}
+
+#feedback-2 {
+	background-color: lightgreen;
+	width: 190px;
+	height: 40px;
+	border-radius: 10px;
+	padding: 5px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 2px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 0.8em;
+}
+
+#buttonHolder {
+	margin: 0 auto;
+	visibility: hidden;
+	color: yellow;
+}
+
+#walk {
+	float: left;
+	text-align: center;
+}
+
+#walk p {
+	font-family: 'Press Start 2P', cursive;
+}
+
+#aim {
+	float: right;
+	text-align: center;
+}
+
+#aim p {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.walk {
+	color: black;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+	margin: 0px 5px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.aim {
+	color: black;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	background-color: yellow;
+	margin: 0px 5px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 320px){
+/*@media only screen and (max-device-width: 320px) {*/
+	body {
+		background-color: purple;
+	}
+
+	h1 {
+		font-size: 0.9em;
+		margin-top: 0px
+	}
+
+	p {	
+		margin-top: -5px;
+		font-size: 0.7em;
+	}
+
+	#wrap {
+		width: 300px;
+		margin: 10px auto;
+	}
+	
+	#gameboard {
+	color: purple;
+	background-color: yellow;
+	font-family: "Calibri";
+	margin: 0 auto;
+	padding: 5px;
+	}
+
+	#gameboard h1 {
+		font-family: "Calibri";
+	}
+
+	#gameboard p {
+		font-family: "Calibri";
+	}
+
+	.walk {
+		color: purple;
+	}
+
+	.aim {
+		color: purple;
+	}
+	
+	.room { 
+	background-color: #cecece;
+	display: inline-block; 
+	height: 20px; 
+	}
+
+	#feedback {
+	background-color: #cecece;
+	font-family: "Calibri";
+	width: 65%;
+	height: 60px;
+	border-radius: 10px 0 0 10px;
+	float: left;
+	margin-top: 5px;
+	margin-left: -5px;
+	padding: 5px;
+	}
+
+	#feedback-2 {
+	background-color: #cecece;
+	font-family: "Calibri";
+	width: 30%;
+	height: 60px;
+	border-radius: 0 10px 10px 0;
+	padding: 5px;
+	float: right;
+	margin-top: 5px;
+	margin-right: -5px;
+	}
+
+	#buttonHolder {
+	margin: 20px auto 0;
+	width: 300px;
+	}
+
+	#walk {
+		margin-left: 10px;
+		margin-top: 10px;
+		color: #cecece;
+	}
+
+	#walk p {
+		font-family: "Calibri";
+		float: left;
+		font-size: 20px;
+		margin-right: 5px;
+		margin-top: 10px;
+		
+	}
+
+	#aim {
+		margin-top: 0px;	
+	}
+
+	#aim p {
+		color: #cecece;		
+		float: left;
+		font-family: "Calibri";
+		font-size: 20px;
+		margin-top: 10px;
+		margin-right: 15px;
+	}	
+}
